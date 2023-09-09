@@ -15,7 +15,7 @@ It may be useful to know that you can find the length of a string by writing .le
 // FOR Loop
 let arr1 = ['#'];
 for (let index = 0; arr1.length < 8; index += 1) {
-    console.log(arr1.join('')); // Print the current row
+    console.log(arr1.join(' ')); // Print the current row
     arr1.push('#'); // Add one '#' to the row
 }
 
