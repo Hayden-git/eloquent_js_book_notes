@@ -1,4 +1,3 @@
-
 /*
 FizzBuzz - Instructions
 
@@ -10,11 +9,11 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 */
 
 for (let number = 1; number <= 100; number += 1) {
-    if (number % 3 == 0) {
-      console.log('fizz')
-    } else if (number % 5 == 0) {
-      console.log('buzz')
-    } else {
-      console.log(number);
-    }
+  if (number % 3 == 0) {
+    console.log("fizz");
+  } else if (number % 5 == 0) {
+    console.log("buzz");
+  } else {
+    console.log(number);
   }
+}
